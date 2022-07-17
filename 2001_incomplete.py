@@ -8,10 +8,10 @@ for k in range(t):
     if m == n:	#파리채가 전 범위를 커버하는 경우
         for i in range(len(sum)):
             answer += sum(area[i])
-    else:	#파리채로 잡는 부분 미구현
+    else:	#파리채로 잡는 부분 (미구현)
         catch = 0
         catchsum = []
         for dy in range(n-m):
             for dx in range(n-m):
                 catch += area[dy][dx]
-print(&apos;#&apos;+str(t+1)+&apos; &apos;+str(answer))
+print("#"+str(t+1)+" "+str(answer))
