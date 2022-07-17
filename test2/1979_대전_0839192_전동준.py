@@ -1,4 +1,3 @@
-#일부 테스트케이스에서 틀리는 문제 발생
 T = int(input())
 for test_case in range(1, T + 1):
     n, k = map(int,input().split())
