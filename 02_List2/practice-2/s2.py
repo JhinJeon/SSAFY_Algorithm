@@ -1,4 +1,5 @@
 # 부분집합의 합계
+
 import sys
 sys.stdin = open('input.txt')
 
@@ -10,7 +11,7 @@ for tc in range(1, t+1):
     # answer = 부분집합의 합이 0인지 아닌지를 저장하는 변수(1 == True, 0 == False)
     answer = 0
 
-    for i in range(1,1 << n):
+    for i in range(1, 1 << n):
         # sum_temp = 부분집합의 합계를 저장하는 임시 변수
         sum_temp = 0
 
