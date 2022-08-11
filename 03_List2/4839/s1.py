@@ -10,7 +10,7 @@ t = int(input())
 # last_page = 찾으려는 페이지 범위의 맨 마지막 페이지
 # find_page = 찾으려는 페이지
 # trial = 시도 횟수
-# 이 문제는 시도 횟수를 묻지는 않으므로, 정확한 수치보다는 대소비교를 위한 용도
+
 def search_page(front_page, last_page, find_page, trial):
     front = front_page
     last = last_page
@@ -35,21 +35,17 @@ def search_page(front_page, last_page, find_page, trial):
 for tc in range(1,t+1):
     # 책 페이지 수, a가 찾는 페이지, b가 찾는 페이지
     book, find_a, find_b = map(int,input().split())
-    
-    # turn_a = a가 페이지를 찾기 위해 시도한 횟수
-    # turn_b = b가 페이지를 찾기 위해 시도한 횟수
-    turn_a = 0
-    turn_b = 0
+
     
     # 함수 결과를 a, b에 저장
-    a = search_page(1, book, find_a, turn_a)
-    b = search_page(1, book, find_b, turn_b)
+    trial_a = search_page(1, book, find_a, 0)
+    trial_b = search_page(1, book, find_b, 0)
 
     # a보다 b가 더 많은 시도를 한 경우(a가 더 빨리 찾은 경우)
-    if a < b:
+    if trial_a < trial_b:
         answer = 'A'
     # a가 b보다 더 많은 시도를 한 경우(b가 더 빨리 찾은 경우)
-    elif a > b:
+    elif trial_a > trial_b:
         answer = 'B'
     # 탐색 시도 횟수가 동일한 경우
     else:
