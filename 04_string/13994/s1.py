@@ -5,43 +5,57 @@ import sys
 
 sys.stdin = open('sample_in.txt')
 
-for t in range(1, int(input()) + 1):
+t = int(input())
+
+for t in range(1, t + 1):
+    stops = list()
     n = int(input())
-    stops_2 = []
-    stops_3 = []
     for i in range(n):
         bustype, start, end = map(int,input().split())
         if bustype == 1:
-            stops_1 = list(range(start,end+1))
+            stops.append(list(range(start,end+1)))
         elif bustype == 2:
-            stops_2.append(start)
-            stops_2.append(end)
+            temp_2 = list()
+            temp_2.append(start)
+            temp_2.append(end)
             if start % 2 == 1:
                 for k in range(start+1,end):
                     if k % 2 == 1:
-                        stops_2.append(k)
+                        temp_2.append(k)
             else:
                 for k in range(start+1,end):
                     if k % 2 == 0:
-                        stops_2.append(k)
+                        temp_2.append(k)
+            stops.append(temp_2)
         else:
-            stops_3.append(start)
-            stops_3.append(end)
+            temp_3 = list()
+            temp_3.append(start)
+            temp_3.append(end)
             if start % 2 == 0:
                 for k in range(start+1,k):
                     if k % 4 == 0:
-                        stops_3.append(k)
+                        temp_3.append(k)
             else:
                 for k in range(start+1,k):
                     if k % 3 == 0 and k % 10 != 0:
-                        stops_3.append(k)
+                        temp_3.append(k)
+            stops.append(temp_3)
 
-    if set(stops_1) & set(stops_2) & set(stops_3):
-        answer = 3
-    elif set(stops_1) & set(stops_2) or set(stops_2) & set(stops_3) or set(stops_1) & set(stops_3):
-        answer = 2
-    else:
-        answer = 1
+    answer = 0
+    for i in range(1000):
+        common = 0
+        for stop in stops:
+            if i in stop:
+                common += 1
+        if common > answer:
+            answer = common
+            common = 0
+        else:
+            common = 0
+
+    if answer == 1:
+        answer = 0
+
     print(f'#{t} {answer}')
 
 
