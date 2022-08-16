@@ -1,33 +1,47 @@
 # 회문 검사 2
+import sys
+sys.stdin = open('input.txt')
 
-for tc in range(1, 11):
+for t in range(1, 11):
     # 한 줄로 구성된 입력값을 graph_vals로 받은 후 이를 10줄에 거쳐서 배분
-    graph_vals = list(input())
-    graph = [graph_vals[i:i+10] for i in range(0,100,10)]
-    answer = 0
+    tc = int(input())
+
+    graph = [list(input()) for _ in range(100)]
+    answer_max = 0
 
     # 열 방향으로 회문 검사
-    for col in range(n):
-        for start_idx in range(n - m + 1):
-            for row in range(m):
-                # 탐색 범위의 앞뒤가 다른 경우 반복문 종료
-                # 그래프 끝 범위를 -row -1 -start_idx로 설정하면 반복문이 진행될수록 탐색 범위가 좁아짐
-                if graph[col][row + start_idx] != graph[col][-row - 1 - (n - m - start_idx)]:
-                    break
-            # 탐색 범위 내의 모든 문자들의 앞뒤가 같으면 묶어서 answer에 추가
-            else:
-                answer = ''.join(graph[col][start_idx: start_idx + m])
+    for col in range(100):
+        for start_idx in range(100):
+            for end_idx in range(start_idx, 100):
+                # 열 방향 리스트의 일부를 pal_check 리스트로 분리한 후 회문 검사
+                pal_check = graph[col][start_idx:end_idx+1]
+                for i in range(len(pal_check)):
+                    if pal_check[i] != pal_check[-1-i]:
+                        break
+
+                # 새로 발견한 회문의 길이가 이전에 발견된 회문의 최대 길이보다 긴 경우 값 갱신
+                else:
+                    answer = len(pal_check)
+                    if answer > answer_max:
+                        answer_max = answer
 
     # 행 방향으로 회문 검사
-    for row in range(n):
-        for start_idx in range(n - m + 1):
-            for col in range(m):
-                # 탐색 범위의 앞뒤가 다른 경우 반복문 종료
-                if graph[col + start_idx][row] != graph[-col - 1 - (n - m - start_idx)][row]:
-                    break
-            # 탐색 범위 내의 모든 문자들의 앞뒤가 같으면 묶어서 answer에 추가
-            else:
-                for col_idx in range(start_idx, start_idx + m):
-                    answer += graph[col_idx][row]
+    for row in range(100):
+        for start_idx in range(100):
+            for end_idx in range(start_idx, 100):
+                # 행 방향 값들의 일부를 pal_check 리스트에 담기
+                pal_check = []
+                for idx in range(start_idx,end_idx+1):
+                    pal_check.append(graph[idx][row])
 
-    print(f'#{tc} {answer}')
+                # 회문 검사
+                for i in range(len(pal_check)):
+                    if pal_check[i] != pal_check[-1-i]:
+                        break
+                # 새로 발견한 회문의 길이가 이전에 발견된 회문의 최대 길이보다 긴 경우 값 갱신
+                else:
+                    answer = len(pal_check)
+                    if answer > answer_max:
+                        answer_max = answer
+
+    print(f'#{tc} {answer_max}')
