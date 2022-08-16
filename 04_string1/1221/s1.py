@@ -1,4 +1,5 @@
 # SWEA - GNS
+# 최초 작성 코드
 import sys
 
 sys.stdin = open('GNS_test_input.txt')

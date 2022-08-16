@@ -1,6 +1,7 @@
 # SWEA - GNS
-# enumerate 사용
-
+# 버블 정렬 개선된 버전
+import sys
+sys.stdin = open('GNS_test_input.txt')
 # words = 숫자에 대응하는 문자열 리스트
 words = ["ZRO", "ONE", "TWO", "THR", "FOR", "FIV", "SIX", "SVN", "EGT", "NIN"]
 
@@ -22,7 +23,7 @@ for tc in range(1, t + 1):
 
     # 숫자를 오름차순으로 정렬(버블 정렬 사용)
     for i in range(n):
-        for j in range(i, n):
+        for j in range(n-1,i,-1):
             # 앞의 수가 더 큰 경우 순서 맞바꾸기
             if letter_list[i] > letter_list[j]:
                 letter_list[i], letter_list[j] = letter_list[j], letter_list[i]
