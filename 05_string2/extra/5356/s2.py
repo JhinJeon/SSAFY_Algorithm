@@ -1,3 +1,5 @@
+# 의석이의 세로로 말해요
+
 import sys
 sys.stdin = open('sample_input.txt')
 

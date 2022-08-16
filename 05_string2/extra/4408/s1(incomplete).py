@@ -1,4 +1,6 @@
 # 자기 방으로 돌아가기
+import sys
+sys.stdin = open('sample_input.txt')
 
 t = int(input())
 
@@ -11,18 +13,20 @@ for tc in range(1,t+1):
     for _ in range(n):
         start, end = map(int, input().split())
         starts.append(start)
-        ends.append(ends)
+        ends.append(end)
     
     # trials = 방을 이동하는데 필요한 시간 단위
     trials = 0
     for i in range(n):
-        moving_route = list(starts[i], ends[i])
+        # 이동 경로가 겹치는 경우
         for j in range(n):
-            if moving_route[0] <= starts[j] <= moving_route[1] or moving_route[0] <= ends[j] <= moving_route[1]:
+            if i == j:
+                continue
+            if starts[i] <= starts[j] <= ends[i] or starts[i] <= ends[j] <= ends[i]:
                 trials += 1
 
     if trials > 0:
-        answer = trials / 2
+        answer = trials // 2
     else:
         answer = 1
 
