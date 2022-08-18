@@ -1,4 +1,6 @@
 # 단지번호붙이기
+# 재귀함수는 구현 불가?
+
 import sys
 sys.stdin = open('input.txt')
 
