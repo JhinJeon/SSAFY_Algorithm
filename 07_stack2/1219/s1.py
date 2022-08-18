@@ -1,19 +1,20 @@
 # 길찾기
+# 용준님 코드 참조
+
 import sys
 sys.stdin = open('input.txt')
 
-def dfs(graph, start, end):
-    if visited[end] == True:
-        return 1
-    else:
-        visited[start] = True  # 현재 정점 방문처리
 
-        for next_v in graph[start]:
-            if visited[next_v]:  # 방문하지 않았다면
-                return dfs(graph, next_v, end)  # 인접 정점으로 이동
-        return 0
+# 깊이 우선 탐색을 수행하는 dfs 함수 정의
+def dfs(v): 
+    # 현재 위치는 방문 처리
+    visited[v] = True                           
 
-
+    # 현재 노드의 인접 노드 조사 : 방문하지 않은 경우 방문 처리 후 재귀 실행
+    for w in node[v]:                         
+        if not visited[w]:                     
+            v = w                          
+            dfs(v)                           
 
 
 for _ in range(10):
@@ -23,11 +24,15 @@ for _ in range(10):
     paths = list(map(int,input().split()))
     answer = 0
 
+    # node에 인접 노드 연결 정보 추가
     for i in range(0,path_count*2,2):
         node[paths[i]].append(paths[i+1])
 
+    # 함수 실행(시작 지점 = 0)
+    dfs(0)
 
-    if dfs(node, 0, 99) == 1:
+    # 함수 실행 결과 도착지에 방문했으면 1 반환
+    if visited[99]:
         answer = 1
     else:
         answer = 0
