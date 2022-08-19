@@ -23,10 +23,11 @@ def dfs(graph, x, y):
 t = int(input())
 
 for tc in range(1, t + 1):
+    # m = 가로, n = 세로, k = 심을 배추 수
     m, n, k = map(int, input().split())
     farm = [[0] * m for _ in range(n)]
     
-    # 배추벌레의 위치 저장
+    # 배추의 위치 저장
     for position in range(k):
         row, col = map(int, input().split())
         farm[col][row] = 1
