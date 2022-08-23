@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835fc1cd-6f2a-4f85-9563-04820d13e293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09_stack2/1224/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/4874/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/4875/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/4881/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/4881/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/5209/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/5209/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/5209/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/5209/s4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/combination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/combination2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_stack2/permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SSAFY_Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSAFY_Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_stack2/5208/s1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_stack2/1233/SWEA1233.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_stack2/1233/SWEA1233.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_stack2/1233/practice3.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_stack2/practice3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_stack2/practice1.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_stack2/practice1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_stack2/4875/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_stack2/4875/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +47,8 @@
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s2 (1)">
-    <configuration name="s1 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.s1">
+    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_stack2/5209" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_stack2/5208" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_stack2/5209/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_stack2/5208/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1" />
         <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s4" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s2" />
-        <item itemvalue="Python.s1 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +206,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/09_stack2/4875/s1.py</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -238,6 +223,11 @@
           <url>file://$PROJECT_DIR$/09_stack2/5209/s3.py</url>
           <line>27</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/09_stack2/5208/s1.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

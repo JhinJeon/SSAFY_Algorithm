@@ -21,6 +21,7 @@ def maze_search(x, y):
         if 0 <= nx < n and 0 <= ny < n and not visited[ny][nx]:
             if miro[ny][nx] == 3:   # 출구를 찾은 경우
                 result = 1
+                return
             elif miro[ny][nx] == 0: # 탐색 가능한 구역이 있는 경우
                 maze_search(nx, ny)
 
