@@ -31,9 +31,6 @@ for tc in range(1,11):
     while cal_stack:
         result += cal_stack.pop()
 
-    # 스택 초기화
-    while cal_stack:
-        cal_stack.pop()
 
     # 2. 후위 표기법으로 표시한 식 계산
     # call_stack을 숫자들을 저장하는 스택으로 사용

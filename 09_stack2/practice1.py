@@ -9,14 +9,14 @@ for w in word:
     # 숫자는 result에 추가한다
     if w in '()+-*/':
         # 여는 괄호가 나오면 스택에 추가
-        if w == '(' and not stack:
+        if w == '(' or not stack:
             stack.append(w)
         # 다른 연산자가 나오면 여는 괄호 직전까지 추가
         elif w in '*/':
             while stack and stack[-1] != '(':
                 result += stack.pop()
             stack.append(w)
-        elif w in '+=':
+        elif w in '+-':
             while stack and stack[-1] != '(':
                 result += stack.pop()
             stack.append(w)
