@@ -2,26 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835fc1cd-6f2a-4f85-9563-04820d13e293" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SSAFY_Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSAFY_Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_demotest/practice/maze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_demotest/practice/maze_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_demotest/practice/maze_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ10157.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/BJ1018.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1100.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1913.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ2566.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/input2.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_stack2/1233/SWEA1233.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_stack2/1233/practice3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_stack2/practice1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_stack2/practice2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/1219/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/1219/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/1219/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/1219/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/1219/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/1219/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/1234/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/1234/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/1234/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/1234/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/1234/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/1234/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4866/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4866/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4866/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4866/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4866/sample_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4866/sample_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4869/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4869/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4871/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4871/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4871/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4871/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4871/sample_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4871/sample_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4873/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4873/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4873/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4873/s2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4873/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4873/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/4873/sample_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/4873/sample_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/BJ2606/2606.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/BJ2606/2606.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/BJ2606/errorcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/BJ2606/errorcase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/BJ2667/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/BJ2667/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/BJ2667/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/BJ2667/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/BJ2667/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/BJ2667/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_stack2/BJ2667/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_stack1/BJ2667/s2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +54,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09_stack2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\09_stack2" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\09_stack2\1233" />
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\test" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Algo1">
+  <component name="RunManager" selected="Python.practice3">
     <configuration name="Algo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,8 +112,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SWEA1233" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\multicampus\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_stack2/1233" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_stack2/1233/SWEA1233.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\multicampus\AppData\Local\Programs\Python\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_stack2/1233" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_stack2/1233/practice3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.practice3" />
+        <item itemvalue="Python.SWEA1233" />
         <item itemvalue="Python.Algo1" />
         <item itemvalue="Python.Algo2" />
       </list>
@@ -129,5 +184,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/09_stack2/1233/SWEA1233.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
