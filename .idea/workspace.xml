@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835fc1cd-6f2a-4f85-9563-04820d13e293" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SSAFY_Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SSAFY_Algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_demotest/practice/maze.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_demotest/practice/maze_input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_demotest/practice/maze_output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ10157.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/1018sample4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1018/BJ1018.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1100.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ1913.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/BJ2566.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/input2.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_queue1/practice1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_queue1/practice2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,5 +112,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
