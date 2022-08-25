@@ -1,24 +1,23 @@
-def dfs(v):
-    visited[v] = True  # 현재 정점 방문처리
+def dfs(computer_id):
+    global answer
+    visited[computer_id] = True
+    for next_computer in network_status[computer_id]:
+        if not visited[next_computer]:
+            answer += 1
+            dfs(next_computer)
 
-    for next_v in graph[v]:
-        if not visited[next_v]:  # 방문하지 않았다면
-            global total
-            total += 1  # 감염 컴퓨터 1개 증가
-            dfs(next_v)  # 인접 정점으로 이동
 
+computer = int(input())
+n = int(input())
+answer = 0
+visited = [False] * (computer + 1)
+network_status = [[] for _ in range(computer+1)]
 
-n = int(input())  # 정점 개수
-m = int(input())  # 간선 개수
-graph = [[] for _ in range(n + 1)]
-visited = [False] * (n + 1)
-total = 0  # 결과 값 (감염된 컴퓨터의 개수)
+for _ in range(n):
+    a, b = map(int, input().split())
+    network_status[a].append(b)
+    network_status[b].append(a)
 
-# 인접 리스트 만들기
-for _ in range(m):
-    v1, v2 = map(int, input().split())
-    graph[v1].append(v2)
-    graph[v2].append(v1)
+dfs(1)
 
-dfs(1)  # 1번 정점에서 시작
-print(total)
+print(answer)
