@@ -23,7 +23,7 @@ combinations([], 0)
 
 length = 2
 
-
+# 조합처럼 주어진 숫자들 중 두개를 뽑아서 단조 여부를 확인하는 문제
 def combinations(arr, start):
     global result
     if len(arr) == length:
