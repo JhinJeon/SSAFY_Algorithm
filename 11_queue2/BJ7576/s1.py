@@ -1,6 +1,13 @@
 # 토마토
+# deque를 쓰지 않으면 시간초과가 걸리는 문제
+
 import sys
-sys.stdin = open('input4.txt')
+from collections import deque
+
+sys.stdin = open('input.txt')
+
+# from collections import deque
+
 
 dy = [-1, 0, 1, 0]
 dx = [0, 1, 0, -1]
@@ -10,7 +17,7 @@ def bfs(tomato_queue, y, x):
     global day
     while tomato_queue:
         for _ in range(len(tomato_queue)):
-            y, x = tomato_queue.pop(0)
+            y, x = tomato_queue.popleft()
             for direction in range(4):
                 nx = x + dx[direction]
                 ny = y + dy[direction]
@@ -23,20 +30,19 @@ def bfs(tomato_queue, y, x):
 
 m, n = map(int,input().split())
 tomatos = []
-starting_point = []
-for i in range(n):
+starting_point = deque()
+for col in range(n):
     tomatos.append(list(map(int,input().split())))
-    if 1 in tomatos[i]:
-        starting_point.append((i, tomatos[i].index(1)))
+    for row in range(m):
+        if tomatos[col][row] == 1:
+            starting_point.append((col, row))
 
 day = 0
-for col in range(n):
-    for row in range(n):
-        bfs(starting_point, row, col)
+bfs(starting_point, row, col)
 
-for col in range(n):
-    if 0 in tomatos[col]:
-        day = -1
+for col in tomatos:
+    if 0 in col:
+        print(-1)
         break
 else:
     print(day-1)
