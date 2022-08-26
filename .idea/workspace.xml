@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835fc1cd-6f2a-4f85-9563-04820d13e293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12_IM/SWEA1974/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_IM/SWEA1974/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_queue2/BJ7576/input2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_queue2/BJ7576/input3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_queue2/BJ7576/input4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_queue2/BJ7576/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/11_queue2/BJ7576/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_IM/SWEA1974/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/12_IM/SWEA1974/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +49,35 @@
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\11_queue2\BJ2606" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\12_IM\SWEA1974" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\09_stack2" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\09_stack2\1233" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\test" />
-      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1(incomplete) (1)">
+  <component name="RunManager" selected="Python.s1 (1)">
+    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/SWEA1974" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/SWEA1974/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1_rm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,32 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_queue2/SWEA5099" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/SWEA1974" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_queue2/SWEA5099/s1_rm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SSAFY_Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/11_queue2/BJ7562" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11_queue2/BJ7562/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/SWEA1974/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1 (1)" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.s1(incomplete) (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.s1(incomplete)" />
-        <item itemvalue="Python.s1_rm" />
-        <item itemvalue="Python.s2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -301,6 +298,16 @@
           <url>file://$PROJECT_DIR$/11_queue2/BJ7562/s2.py</url>
           <line>33</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/12_IM/SWEA1974/s1.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/12_IM/SWEA1974/s1.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
