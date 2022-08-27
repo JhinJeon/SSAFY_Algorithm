@@ -6,24 +6,16 @@ sys.stdin = open('input.txt')
 dy = [-1, 0, 1, 0]
 dx = [0, 1, 0, -1]
 
-
-# bfs 방식
-def harvest(y, x, power):
-    result = farm[y][x]
-    farm[y][x] = 0
-    for direction in range(4):
-        for p in range(1,power+1):
-            nx = x + dx[direction] * p
-            ny = y + dy[direction] * p
-            result += farm[ny][nx]
-            farm[ny][nx] = 0
-    return result
-
-
 t = int(input())
 
 for tc in range(1,t+1):
     n = int(input())
     farm = [list(map(int,input())) for _ in range(n)]
     center = n // 2
-    print(f'#{tc}', harvest(center, center, center))
+    result = 0
+    # 중앙에서 가로/세로로 (농장 변 길이 // 2 + 1)칸 만큼 떨어진 거리에 있는 농작물은 수확 가능
+    for col in range(n):
+        for row in range(n):
+            if abs(center - col) + abs(center - row) < center + 1:
+                result += farm[col][row]
+    print(result)
