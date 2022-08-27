@@ -2,9 +2,6 @@
 import sys
 sys.stdin = open('input.txt')
 
-# 순서대로 상, 하, 좌, 우
-dy = [-1, 0, 1, 0]
-dx = [0, 1, 0, -1]
 
 t = int(input())
 
@@ -16,6 +13,14 @@ for tc in range(1,t+1):
     # 중앙에서 가로/세로로 (농장 변 길이 // 2 + 1)칸 만큼 떨어진 거리에 있는 농작물은 수확 가능
     for col in range(n):
         for row in range(n):
-            if abs(center - col) + abs(center - row) < center + 1:
+            if col >= center:
+                y = col - center
+            else:
+                y = center - col
+            if row >= center:
+                x = row - center
+            else:
+                x = center - row
+            if y + x <= center:
                 result += farm[col][row]
-    print(result)
+    print(f'#{tc}',result)
