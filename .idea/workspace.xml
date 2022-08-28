@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835fc1cd-6f2a-4f85-9563-04820d13e293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/practice/text_crawling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_string2(복습 필요)/extra(incomplete!)/5432/answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/answer1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/answer2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/test_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/BJ10158(incomplete)/BJ10158.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/BJ10158(incomplete)/sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/BJ10158(incomplete)/sample_input2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,27 +44,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_IM/BJ2578(incomplete)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12_IM/BJ2564" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\12_IM\BJ2564" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\12_IM\BJ2578(incomplete)" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\12_IM\SWEA2805" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\12_IM\BJ2304" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\12_IM\SWEA6190" />
-      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\11_queue2\BJ7562" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\practice\BJ10158" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\12_IM\SWEA1974" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\09_stack2" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\09_stack2\1233" />
-      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.text_crawling">
-    <configuration name="maze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.s1 (2)">
+    <configuration name="BJ10158" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice/BJ10158" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/maze.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/BJ10158/BJ10158.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,7 +85,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="answer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +93,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/SWEA2805" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_string2(복습 필요)/extra(incomplete!)/5432" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/SWEA2805/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_string2(복습 필요)/extra(incomplete!)/5432/answer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/BJ2564" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/BJ2564/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,27 +140,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/SWEA11315(incomplete)/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SSAFY_Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/SWEA2805(incomplete)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/SWEA2805(incomplete)/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1 (2)" />
+        <item itemvalue="Python.BJ10158" />
+        <item itemvalue="Python.answer" />
         <item itemvalue="Python.text_crawling" />
         <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s1 (1)" />
-        <item itemvalue="Python.s2" />
-        <item itemvalue="Python.maze" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +329,16 @@
           <url>file://$PROJECT_DIR$/12_IM/SWEA2805/s1.py</url>
           <line>14</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/practice/BJ10158(incomplete)/BJ10158.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/12_IM/BJ2564/s1.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
