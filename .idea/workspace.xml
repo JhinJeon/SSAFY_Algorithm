@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="835fc1cd-6f2a-4f85-9563-04820d13e293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_string2(복습 필요)/extra(incomplete!)/5432/answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/answer1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/answer2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_IM/BJ2564/test_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/BJ10158(incomplete)/BJ10158.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/BJ10158(incomplete)/sample_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice/BJ10158(incomplete)/sample_input2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_IM/BJ2578/s1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +55,7 @@
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\09_stack2\1233" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1 (2)">
+  <component name="RunManager" selected="Python.s1 (1)">
     <configuration name="BJ10158" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +98,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/BJ2578" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/BJ2578/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,32 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/SWEA11315(incomplete)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/12_IM/BJ2578" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/SWEA11315(incomplete)/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="text_crawling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SSAFY_Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/text_crawling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12_IM/BJ2578/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1 (1)" />
+        <item itemvalue="Python.s2" />
         <item itemvalue="Python.s1 (2)" />
         <item itemvalue="Python.BJ10158" />
         <item itemvalue="Python.answer" />
-        <item itemvalue="Python.text_crawling" />
-        <item itemvalue="Python.s1" />
       </list>
     </recent_temporary>
   </component>
@@ -339,6 +331,16 @@
           <url>file://$PROJECT_DIR$/12_IM/BJ2564/s1.py</url>
           <line>27</line>
           <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/12_IM/BJ2578/s1.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/12_IM/BJ2578/s2.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
