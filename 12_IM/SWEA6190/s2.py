@@ -9,9 +9,8 @@ for tc in range(1, t+1):
     result = []
 
     for idx_1 in range(len(danzo)):
-        for idx_2 in range(idx_1, len(danzo)):
-            if idx_1 != idx_2:
-                danzo_case.add((danzo[idx_1], danzo[idx_2]))
+        for idx_2 in range(idx_1+1, len(danzo)):
+            danzo_case.add((danzo[idx_1], danzo[idx_2]))
 
     for dc in danzo_case:
         n1, n2 = dc[0], dc[1]
