@@ -14,7 +14,7 @@ def dfs(x, y):
             # 도착점이면 경로를 출력
             if nx == n - 1 and ny == m - 1:
                 print(road)
-                return road
+                return
 
             dfs(nx, ny)  # 다음 칸 이동
             road.pop()  # 되돌아가면서 이전 경로 삭제
@@ -27,4 +27,3 @@ dx, dy = [-1, 1, 0, 0], [0, 0, -1, 1]  # 상하좌우
 road = [(0, 0)]  # 출구까지의 경로
 
 dfs(0, 0)
-print(dfs(0, 0))  # (0,0) 정점에서 시작

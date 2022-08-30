@@ -1,4 +1,6 @@
 # 오목 판정
+# 일단 o 표시를 만나서 인접한 o를 탐색할 때 다른 방향으로 새지 않도록 주의
+
 import sys
 sys.stdin = open('sample_input.txt')
 
@@ -14,9 +16,11 @@ def o_mok(graph, y, x):
         for power in range(1, 5):
             nx = x + dx[direction] * power
             ny = y + dy[direction] * power
-            if 0 <= nx < n and 0 <= ny < n and graph[ny][nx] == 'o':
+            if 0 <= nx < n and 0 <= ny < n and graph[ny][nx] == 'o' and not visited[ny][nx]:
                 omok_count += 1
-                o_mok(graph, ny, nx)
+            if omok_count == 5:     # 오목을 찾은 경우 함수 종료
+                return
+        omok_count = 1      # 오목 못 찾았으면 오목 카운트 초기화
 
 
 t = int(input())
