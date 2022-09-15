@@ -47,6 +47,7 @@ else:
 
 # 3. 타격구를 어느 정도의 세기로 쳐야 하는지 계산
 
+# 공 반지름 * 목표구(타격 지점)~포켓 간 각도(사인값/코사인값)
 power_x = pocket_x * \
     math.sin(math.atan2(distance_y, distance_y)) / ball_radius
 power_y = pocket_y * \
@@ -54,3 +55,9 @@ power_y = pocket_y * \
 
 print(power_x)
 print(power_y)
+
+# 유의사항
+
+# 파일명과 코드 내 개인정보 : 지역_이름(영문 대문자로)
+# zip파일로 압축해서 제출
+# 어떤 전략으로 알고리즘을 구성했는지 .txt파일로 설명 추가
