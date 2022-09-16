@@ -14,17 +14,17 @@ def calculate(k):
         
         # 노드에 저장된 연산자 부호에 따라 연산 실행
         if calculators[k] == '+':
-            result = value[k] = value[left_child[k]] + value[right_child[k]]
+            value[k] = value[left_child[k]] + value[right_child[k]]
         elif calculators[k] == '-':
-            result = value[k] = value[left_child[k]] - value[right_child[k]]
+            value[k] = value[left_child[k]] - value[right_child[k]]
         elif calculators[k] == '*':
-            result = value[k] = value[left_child[k]] * value[right_child[k]]
+            value[k] = value[left_child[k]] * value[right_child[k]]
         elif calculators[k] == '/':
-            result = value[k] = value[left_child[k]] / value[right_child[k]]
-        return result
+            value[k] = value[left_child[k]] / value[right_child[k]]
+        return value[k]
     
     else:               # 현재 노드에 값이 저장되어 있는 경우 값 반환
-        return value[k]
+        return val
 
 
 for tc in range(1,11):
