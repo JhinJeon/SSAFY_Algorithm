@@ -2,19 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b191cce-e839-483c-9ac7-6bb87db3de77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Solution2/1238/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/1238/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/1486/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/1486/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/1861/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/1953/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/1953/s2(incomplete).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/1953/testinput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/4012/debug_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/4012/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Solution2/5688/s2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Solution2/4012/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Solution2/4012/s2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1238/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1238/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1238/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1238/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1486/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1486/s2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1861/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1861/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1861/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1953/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1953/s2(incomplete).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1953/sample_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/1953/sample_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/4012/debug_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/4012/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/4012/sample_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/4012/sample_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/5688/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution2/5688/s2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +49,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Solution2/4012" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14_Solution2/4012" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\14_Solution2\4012" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\4012" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\1953" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\1238" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\1861" />
-      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\1486" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1 (1)">
+  <component name="RunManager" selected="Python.s1 (2)">
     <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,6 +75,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Solution2/4012/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Solution2/4012" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Solution2/4012/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s2 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,32 +133,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Solution2/1238" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Solution2/4012" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Solution2/1238/s2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s2(incomplete)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SSAFY_Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Solution2/1953" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\1953\s2(incomplete).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Solution2/4012/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1 (2)" />
+        <item itemvalue="Python.s2" />
         <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s2 (2)" />
-        <item itemvalue="Python.s2(incomplete)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +198,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
