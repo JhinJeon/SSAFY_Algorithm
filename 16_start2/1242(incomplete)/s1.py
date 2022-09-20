@@ -5,23 +5,23 @@ sys.stdin = open('sample_input.txt')
 # 암호 코드 딕셔너리
 # 암호코드 구성 이진수는 0 - 1 - 0 - 1 순으로 나옴
 pw_code = {
-    '[3, 2, 1, 1]': '0',
-    '[2, 2, 2, 1]': '1',
-    '[2, 1, 2, 2]': '2',
-    '[1, 4, 1, 1]': '3',
-    '[1, 1, 3, 2]': '4',
-    '[1, 2, 3, 1]': '5',
-    '[1, 1, 1, 4]': '6',
-    '[1, 3, 1, 2]': '7',
-    '[1, 2, 1, 3]': '8',
-    '[3, 1, 1, 2]': '9',
+    '(3, 2, 1, 1)': '0',
+    '(2, 2, 2, 1)': '1',
+    '(2, 1, 2, 2)': '2',
+    '(1, 4, 1, 1)': '3',
+    '(1, 1, 3, 2)': '4',
+    '(1, 2, 3, 1)': '5',
+    '(1, 1, 1, 4)': '6',
+    '(1, 3, 1, 2)': '7',
+    '(1, 2, 1, 3)': '8',
+    '(3, 1, 1, 2)': '9',
 }
 
 t = int(input())
 
 for tc in range(1, t + 1):
     n, m = map(int, input().split())
-    array = [input() for _ in range(n)]
+    array = [input()[:m] for _ in range(n)]     # [:m]은 런타임 에러 방지용
     solved = False  # 암호 해독 여부 구분용
     pw_valid = ""  # 암호 유효성 검사용 변수
     pw_value = 0  # 암호값 저장용 변수
@@ -55,7 +55,7 @@ for tc in range(1, t + 1):
                     sync_idx = 0
                     # 코드에서 길이가 7 * fit인 부분의 코드 구성 계산
                     for j in range(i,i+7*fit):
-                        if encoded_code[j] != sync_idx % 2:
+                        if int(encoded_code[j]) != sync_idx % 2:
                             sync_idx += 1
                         if sync_idx > 3:  # 인덱스 범위 초과 시 반복문 즉시 종료
                             break
@@ -64,6 +64,9 @@ for tc in range(1, t + 1):
                     # 배열 가로 길이에 비례해서 이진수 등장 횟수 보정
                     for a in range(4):
                         code_sync[a] = code_sync[a] // fit
+
+                    # 딕셔너리에서 해시할 수 있도록 튜플 형태로 전환
+                    code_sync = tuple(code_sync)
 
                     # pw_code에서 해당하는 코드 가져오기
                     pw_decode = pw_code.get(code_sync)
