@@ -43,8 +43,7 @@ for tc in range(1, t + 1):
 
     # 문자열 한 줄씩 입력받기(이진수 변환 과정 포함)
     for _ in range(n):
-        arr = input()[:m]       #[:m]은 런타임 에러 방지용
-        arr = arr.strip('0')    # 입력받은 문자열 앞뒤의 0 제거
+        arr = list(input().strip())       #[:m]은 런타임 에러 방지용
         submit = []             # 중복 확인용 중간점검
 
         # 암호 패턴이 없는 경우 continue

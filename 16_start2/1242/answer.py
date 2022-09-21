@@ -1,7 +1,7 @@
 # 1242. [S/W 문제해결 응용] 1일차 - 암호코드 스캔
 import sys
 
-sys.stdin = open('debug_input.txt')
+sys.stdin = open('sample_input.txt')
 
 code_dict = {
     "211": "0",
