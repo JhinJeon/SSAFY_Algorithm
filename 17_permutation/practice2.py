@@ -1,4 +1,6 @@
 # baby gin
+import sys
+sys.stdin = open('input.txt')
 
 # 조합 경우의 수를 반환하는 함수 array
 def combination(arr, k):

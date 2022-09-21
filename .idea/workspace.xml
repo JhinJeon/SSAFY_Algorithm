@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b191cce-e839-483c-9ac7-6bb87db3de77" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_start2/1242/s4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_start2/1242/testinput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_permutation/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/s1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242(incomplete)/s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/debug_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/debug_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/s2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/sample_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/sample_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17_permutation/practice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/17_permutation/practice2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +38,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/17_permutation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/16_start2/1242" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\16_start2\1242" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\17_permutation" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\16_start2\1242" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\15_start" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\14_Solution2\4012" />
-      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\4012" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5188">
+  <component name="RunManager" selected="Python.s3">
     <configuration name="5188" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="practice2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,32 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/4366" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_permutation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/4366/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SSAFY_Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\multicampus\AppData\Local\Programs\Python\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/1242" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/1242/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_permutation/practice2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,13 +135,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="s4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/1242" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/1242/s4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5188" />
         <item itemvalue="Python.s3" />
+        <item itemvalue="Python.s4" />
+        <item itemvalue="Python.practice2" />
+        <item itemvalue="Python.5188" />
         <item itemvalue="Python.s2" />
-        <item itemvalue="Python.s1" />
-        <item itemvalue="Python.s1 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -236,9 +243,14 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/16_start2/1242/s4.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/16_start2/1242/s3.py</url>
-          <line>124</line>
-          <option name="timeStamp" value="86" />
+          <line>70</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
