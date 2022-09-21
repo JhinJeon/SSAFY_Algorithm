@@ -38,18 +38,17 @@ t = int(input())
 for tc in range(1, t + 1):
     n, m = map(int, input().split())    # n = 세로, m = 가로
     solved = False      # 해결 여부 체크용
-    answer = []         # 암호 값 기록용
-    previous_value = []  # 중복 값 기록용
+    answer = 0          # 암호 값 기록용
+    previous_value = set()  # 중복 값 기록용
 
     # 문자열 한 줄씩 입력받기(이진수 변환 과정 포함)
     for _ in range(n):
-        arr = input()[:m]       # [:m]은 런타임 에러 방지용
+        arr = input()[:m]       #[:m]은 런타임 에러 방지용
         arr = arr.strip('0')    # 입력받은 문자열 앞뒤의 0 제거
         submit = []             # 중복 확인용 중간점검
 
         # 암호 패턴이 없는 경우 continue
         if not arr:
-            previous_value = []  # 중복 값 초기화
             continue
 
         # 16진수를 2진수로 변환
@@ -99,24 +98,27 @@ for tc in range(1, t + 1):
                 array_found.append(pw_decode)   # 십진수 값을 array_found에 추가
 
         # 한 줄 내에서 모든 암호 패턴들을 찾은 후
-        valid_check = 0
-        pw_value = 0
         for i in range(0, len(array_found), 8):
             check_array = array_found[i:i+8]
+            # 정방향으로 전환
+            check_array = check_array[::-1]
+            valid_check = 0
+            duplicate_check = ""        # 중복 등장 코드인지 체크하는 용도
+            pw_value = 0
             for k in range(8):
                 check_num = check_array[k]
-                # 역방향으로 정렬된 결과이므로 짝수 번째 자리수에 3을 곱함
-                if k % 2 == 1:
+                # 유효성 검증 시 홀수 번째 자리수는 3을 곱함
+                if k % 2 == 0:
                     valid_check += check_num * 3
                 else:
                     valid_check += check_num
+                duplicate_check += str(check_num)
                 pw_value += check_num
 
             # 유효한 암호 코드인 경우 값 합산
-            if valid_check % 10 == 0:
-                submit.append(pw_value)
-        answer += list(set(submit))
+            if valid_check % 10 == 0 and duplicate_check not in previous_value:
+                answer += pw_value
+                previous_value.add(duplicate_check)
 
-    # 모든 줄을 탐색한 후 중복값 제거 및 출력
-    answer = sum(list(set(answer)))
+    # 모든 줄을 탐색한 후 출력
     print(f'#{tc}', answer)
