@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b191cce-e839-483c-9ac7-6bb87db3de77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/16_start2/1242/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_start2/1242/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/16_start2/1242/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/debug_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/sample_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/sample_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/4366/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/4366/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/s1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_start2/1242(incomplete)/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242(incomplete)/s3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +31,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/16_start2/1242" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/17_permutation" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\17_permutation" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\16_start2\1242" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\15_start" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\14_Solution2\4012" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\4012" />
-      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\Solution2\1953" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s3">
-    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.5188">
+    <configuration name="5188" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +52,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/10726" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_permutation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/10726/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_permutation/5188.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5188" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.s1" />
         <item itemvalue="Python.s1 (2)" />
-        <item itemvalue="Python.s1 (1)" />
       </list>
     </recent_temporary>
   </component>
