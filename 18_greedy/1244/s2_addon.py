@@ -19,7 +19,7 @@ def numswap(arr, count_remain):
         num_result = int("".join(arr))      # 리스트화한 값을 정수로 전환
         if answer < num_result:             # 최댓값을 경신하는 경우
             answer = num_result
-            process = list(case)
+            process.append(list(case))
         return
 
     # 앞쪽 숫자와 뒤쪽 숫자를 교환하는 모든 경우의 수 탐색(완전탐색)
@@ -43,5 +43,6 @@ for tc in range(1, t+1):
     numswap(numpad, swapcount)
 
     print(f'#{tc}', answer)
-    # process.sort(key=lambda x: x[1], reverse=True)
+    process = process[-1]
+    process.sort(key=lambda x: x[1], reverse=True)
     print(process)
