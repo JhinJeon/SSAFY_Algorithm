@@ -1,5 +1,5 @@
-testlist = ['1','2','3','4']
+# 빈 중괄호는 빈 딕셔너리 취급
 
-intlist = list(map(int,testlist))
+isit_dict = {}
 
-print(intlist)
+print(type(isit_dict))
