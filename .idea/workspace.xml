@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b191cce-e839-483c-9ac7-6bb87db3de77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/18_greedy/1244/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_greedy/BJ1931/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18_greedy/BJ1931/testcase.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_greedy/1244/debug_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/18_greedy/1244/debug_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_greedy/1244/s1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_greedy/1244/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_greedy/1244/s2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18_greedy/BJ1931/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/18_greedy/BJ1931/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
