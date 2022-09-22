@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b191cce-e839-483c-9ac7-6bb87db3de77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17_permutation/5188_s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17_permutation/debug_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/1244/debug_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/1244/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/1244/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/5201/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/5202/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/5203/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/BJ11047.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18_greedy/BJ1931/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242/answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/answer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242/s2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242/s3.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/1242/s5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/1242/s4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/5185/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/5185/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/practice2/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/5186/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_start2/practice2/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/16_start2/5186/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +37,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/17_permutation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/18_greedy/1244" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\18_greedy\1244" />
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\18_greedy\BJ1931" />
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\18_greedy\5202" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\17_permutation" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\16_start2\1242" />
-      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\16_start2\1242" />
-      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\15_start" />
-      <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\14_Solution2\4012" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5188_s2">
-    <configuration name="5188_s2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.s1 (4)">
+    <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_permutation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_greedy/5202" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_permutation/5188_s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_greedy/5202/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="answer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s1 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/1242" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_greedy/BJ1931" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/1242/answer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_greedy/BJ1931/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/1242" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_greedy/1244" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/1242/s3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_greedy/1244/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/1242" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_greedy/1244" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/1242/s4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_greedy/1244/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_start2/1242" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_greedy/5202" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_start2/1242/s5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_greedy/5202/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.5188_s2" />
-        <item itemvalue="Python.answer" />
-        <item itemvalue="Python.s5" />
-        <item itemvalue="Python.s3" />
-        <item itemvalue="Python.s4" />
+        <item itemvalue="Python.s1 (4)" />
+        <item itemvalue="Python.s1 (3)" />
+        <item itemvalue="Python.s2 (1)" />
+        <item itemvalue="Python.s1" />
+        <item itemvalue="Python.s2" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +245,26 @@
           <url>file://$PROJECT_DIR$/17_permutation/5188_s2.py</url>
           <line>18</line>
           <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/18_greedy/5203/s1.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/18_greedy/1244/s1.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/18_greedy/1244/s2.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/18_greedy/5202/s1.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="138" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
