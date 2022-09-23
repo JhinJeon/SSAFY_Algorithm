@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b191cce-e839-483c-9ac7-6bb87db3de77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/19_A/1952/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_A/1952/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_A/2105/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_A/2819/debuginput.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_A/2819/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_A/2819/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_A/4615/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_A/4615/s3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_A/1952/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/1952/s2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,8 +286,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/19_A/1952/s2.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="178" />
+          <line>53</line>
+          <option name="timeStamp" value="184" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
