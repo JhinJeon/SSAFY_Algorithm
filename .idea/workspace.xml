@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceed4b8a-6728-4d33-8149-40dade2fa2ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/20_quicksort/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/1249/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/1865/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/1865/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/1865/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/5205/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/5205/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/5205/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/5207/answer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/5207/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/5207/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/5208/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_quicksort/5204/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/20_quicksort/5204/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_quicksort/practice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/20_quicksort/practice2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21/1249/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/21/1249/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
