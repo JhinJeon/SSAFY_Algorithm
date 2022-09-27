@@ -1,55 +1,54 @@
-# 퀵 정렬
+# 병합 정렬
 import sys
+
 sys.stdin = open('sample_input.txt')
 
 
-def quicksort(arr, idx):
-    global result, is_sort, case
-    # 이미 정렬된 상태이면 추가 탐색 중단
-    if is_sort:
-        return
+# 병합 정렬을 위해 개별 집합 단위로 분리
+def divide(arr):
+    # 길이가 1 단위까지 분리된 경우
+    if len(arr) == 1:
+        return arr
+    std = len(arr) // 2     # 분리 기준
+    left = arr[:std]        # 왼쪽 부분
+    right = arr[std:]       # 오른쪽 부분
+    return merge(divide(left), divide(right))
 
-    left = arr[:idx//2]
-    right = arr[idx//2:]
 
-    # 왼쪽 마지막 원소가 오른쪽 마지막 원소보다 더 큰 경우
-    if left and right and left[-1] > right[-1]:
+# 분리한 집합을 병합하는 함수
+def merge(l, r):
+    global case
+    result = []     # 병합 정렬 결과
+    if l and r and l[-1] > r[-1]:
         case += 1
-        
-    for l in range(len(left)-1):
-        # 뒤의 수가 더 작으면 자리 맞바꾸기
-        if left[l] > left[l+1]:
-            left[l], left[l+1] = left[l+1], left[l]
 
-    for u in range(len(right)-1):
-        # 뒤의 수가 더 작으면 자리 맞바꾸기
-        if right[u] > right[u+1]:
-            right[u], right[u+1] = right[u+1], right[u]
-        
-    arr = left + right
-    # 정렬을 더 해야 하는 경우
-    for i in range(len(arr)-1):
-        if arr[i] > arr[i+1]:
-            quicksort(arr, i+1)
-        # 재귀호출 중 정렬된 케이스가 있으면 추가 탐색 중단
-        if is_sort:
-            break
-    # 최적의 결과가 나온 경우 정렬 완료 처리 후 결과 적용
-    else:
-        result = list(arr)
-        is_sort = True
-        return
+    i, j = 0, 0
+    # 작은 수부터 정렬
+    while len(l) > i and len(r) > j:
+        # 작은 수를 병합 정렬에 추가한 후 인덱스 범위 이동
+        if l[i] < r[j] :
+            result.append(l[i])
+            i += 1
+        else:
+            result.append(r[j])
+            j += 1
+            
+    # 정렬되지 않은 부분 마저 정렬
+    result += l[i:]
+    result += r[j:]
+
+    # 결과 반환
+    return result
 
 
 t = int(input())
 
-for tc in range(1, t+1):
+for tc in range(1, t + 1):
     n = int(input())
     array = list(map(int, input().split()))
-    standard = n//2
-    result = []
-    is_sort = False     # 정렬 여부 확인용
-    case = 0            # 왼쪽 원소 마지막 > 오른쪽 원소 마지막인 경우의 수
-    quicksort(array, 0)
-    answer = result[n//2]
+    standard = n // 2
+    is_sort = False  # 정렬 여부 확인용
+    case = 0  # 왼쪽 원소 마지막 > 오른쪽 원소 마지막인 경우의 수
+    answer = divide(array)[standard]
+
     print(f'#{tc}', answer, case)
