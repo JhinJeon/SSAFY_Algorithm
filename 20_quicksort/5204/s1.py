@@ -1,5 +1,6 @@
 # 병합 정렬
 import sys
+
 sys.stdin = open('sample_input.txt')
 
 
@@ -36,7 +37,7 @@ def con(left_arr, right_arr):
 
 t = int(input())
 
-for tc in range(1, t+1):
+for tc in range(1, t + 1):
     n = int(input())
     array = list(map(int, input().split()))
     standard = n//2
