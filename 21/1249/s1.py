@@ -1,4 +1,6 @@
 # 보급로
+# BFS 특성 상 이미 방문한 지역을 체크해야 하는데, 이 경우 돌아가는 경우의 수는 어떻게 처리해야 할지 난감하다.
+
 import sys
 sys.stdin = open('input.txt')
 
@@ -8,32 +10,32 @@ dx = [0, 1, 0, -1]
 
 
 def bfs(col, row):
-    global answer
-    next_visit =[(0, 0, 0)]   # 다음 방문 지점(행, 열, 평탄화 값, 이전 행, 이전 열)
-    footprint = []                  # 방문 기록
+    next_visit =[(col, row)]   # 다음 방문 지점(행, 열)
     while next_visit:
         for _ in range(len(next_visit)):
-            y, x, dig_total = next_visit.pop(0)
-            # 개선의 여지가 없는 경우 탐색 중단(백트래킹)
-            if dig_total > answer:
-                break
+            y, x = next_visit.pop(0)
+            # 방문 처리
+            visited[y][x] = True
+            result = elapsed_time[y][x]
+
             for direction in range(4):
                 nx = x + dx[direction]
                 ny = y + dy[direction]
-                # 왔던 방향으로 되돌아가는 경우
-                if (ny, nx) in footprint:
+                # 시작점으로 되돌아간 경우
+                if ny == 0 and nx == 0:
                     continue
-                # 목적지에 도달한 경우
-                if ny == n-1 and nx == n-1:
-                    if answer > dig_total:
-                        answer = dig_total
-                    break
                 # 목적지를 향해서 경로를 찾는 경우
                 elif 0 <= nx < n and 0 <= ny < n:
-                    next_visit.append((ny, nx, dig_total + graph[ny][nx]))
-                    # 출발지 방향으로 향하는 경우 footprint에 추가
-                    if nx < x or ny < y:
-                        footprint.append((ny, nx))
+                    # 아직 방문하지 않은 지역인 경우
+                    if not visited[ny][nx]:
+                        visited[ny][nx] = True
+                        next_visit.append((ny, nx))
+                        elapsed_time[ny][nx] = result + graph[ny][nx]
+                    # 이미 방문한 지역인 경우 기존보다 시간 단축이 되는 경우에만 이동
+                    else:
+                        if elapsed_time[ny][nx] > result + graph[ny][nx]:
+                            elapsed_time[ny][nx] = result + graph[ny][nx]
+                            next_visit.append((ny, nx))
 
 
 t = int(input())
@@ -41,6 +43,8 @@ t = int(input())
 for tc in range(1,t+1):
     n = int(input())    # 정사각형 지도 한 변의 길이
     graph = [list(map(int, input())) for _ in range(n)]
-    answer = 10 * n ** 2 # 최소 복구 시간
+    visited = [[False] * n for _ in range(n)]
+    elapsed_time = [[0] * n for _ in range(n)]   # 구역까지 도달하는 데 걸린 시간
     bfs(0,0)
+    answer = elapsed_time[-1][-1]
     print(f'#{tc}', answer)

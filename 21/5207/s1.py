@@ -31,28 +31,36 @@ def quick_sort(arr, left, right):
 
 
 # 정렬된 list_a에서 값 b를 찾는 용도
-def binary_search(arr, l, r, find_value):   # l = 0번 인덱스, r = len(arr)-1번 인덱스
+def binary_search(find_value):
     global case
-    if len(arr) <= 2:   # 길이가 2 이하인 경우 l과 r이 겹침(케이스 합산)
-        case += 1
-        return False
-    pivot = (l + r)//2
-    left = arr[:pivot]
-    right = arr[pivot:]
-    if find_value in left:
-        binary_search(left, 0, len(left)-1, b)
-    elif find_value in right:
-        binary_search(right, 0, len(right)-1, b)
+    check = 0   # 1 = 왼쪽, 2 = 오른쪽
+    l, r = 0, n-1  # l = 0번 인덱스, r = len(arr)-1번 인덱스
+    while l <= r:
+        mid = (l + r) // 2
+        if list_a[mid] == find_value:
+            case += 1
+            return
+        elif list_a[mid] > find_value:
+            if check == 1:
+                break
+            check = 1
+            r = mid - 1
+        else:
+            if check == 2:
+                break
+            check = 2
+            l = mid + 1
+    return
 
 
 t = int(input())
 
-for tc in range(1,t+1):
+for tc in range(1, t+1):
     n, m = map(int, input().split())
     list_a = list(map(int, input().split()))        # n개의 정수 저장
     list_b = list(map(int, input().split()))        # m개의 정수 저장
     case = 0
     quick_sort(list_a, 0, n-1)      # list_a 정렬
     for b in list_b:
-        binary_search(list_a, 0, n-1, b)
+        binary_search(b)
     print(f'#{tc}', case)
