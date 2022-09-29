@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a78007-7aec-4118-bc98-88ef8d0fb2d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/23/5248/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23/5248/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23/5249/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23/5251/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23/BOJ1753/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23/BOJ1976/dijkstra_heap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/23/dijkstra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_A/2117/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/2117(incomplete)/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_A/2117/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/2117(incomplete)/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_A/2117/sample_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/2117(incomplete)/sample_output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23/prim.py" beforeDir="false" afterPath="$PROJECT_DIR$/23/prim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23/5249/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/23/5249/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23/5251/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/23/5251/s1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +41,7 @@
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\22" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1 (2)">
+  <component name="RunManager" selected="Python.s1">
     <configuration name="dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s1" />
         <item itemvalue="Python.s1 (2)" />
         <item itemvalue="Python.dijkstra" />
-        <item itemvalue="Python.s1" />
         <item itemvalue="Python.s1 (5)" />
         <item itemvalue="Python.s1 (4)" />
       </list>
@@ -203,7 +195,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/19_A/2105/s1.py</url>
-          <line>55</line>
+          <line>57</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -228,13 +220,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/23/5249/s1.py</url>
-          <line>42</line>
+          <line>46</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/23/5251/s1.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="32" />
+          <line>51</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
