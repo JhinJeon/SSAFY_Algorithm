@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a78007-7aec-4118-bc98-88ef8d0fb2d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/23/heapprim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23/5248/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23/5248/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23/5249/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23/5251/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23/BOJ1753/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23/BOJ1976/dijkstra_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/23/dijkstra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19_A/2117/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/2117/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_A/2117/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/2117(incomplete)/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_A/2117/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/2117(incomplete)/sample_input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_A/2117/sample_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/19_A/2117(incomplete)/sample_output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23/prim.py" beforeDir="false" afterPath="$PROJECT_DIR$/23/prim.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,17 +38,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/23/BOJ1922" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/23/5251" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\23\5251" />
+      <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\23\BOJ1976" />
       <recent name="C:\Users\multicampus\Desktop\SSAFY_Algorithm\23\BOJ1922" />
       <recent name="C:\Users\DongJun\Desktop\SSAFY_Algorithm\22" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.s1 (3)">
-    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.s1 (2)">
+    <configuration name="dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -48,11 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23/BOJ1922" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/BOJ1922/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/dijkstra.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19_A/2105" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23/5251" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19_A/2105/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/5251/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="s1 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SSAFY_Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +100,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/19_A/2117" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23/BOJ1753" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/19_A/2117/s1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/BOJ1753/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1 (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SSAFY_Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23/5248" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/5248/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,32 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23/BOJ1976" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23/5249" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/BOJ1976/s1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="unionfind" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SSAFY_Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/23" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/unionfind.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23/5249/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.s1 (3)" />
-        <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.s1 (2)" />
+        <item itemvalue="Python.dijkstra" />
         <item itemvalue="Python.s1" />
-        <item itemvalue="Python.unionfind" />
+        <item itemvalue="Python.s1 (5)" />
+        <item itemvalue="Python.s1 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,9 +207,34 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/19_A/2117/s1.py</url>
+          <url>file://$PROJECT_DIR$/19_A/2117(incomplete)/s1.py</url>
           <line>55</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/23/BOJ1753/s1.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/23/5248/s1.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/23/prim.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/23/5249/s1.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/23/5251/s1.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

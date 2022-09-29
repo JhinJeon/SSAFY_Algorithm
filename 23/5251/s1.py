@@ -1,4 +1,5 @@
-# 프림(PRIM)
+import sys
+sys.stdin = open('sample_input.txt')
 
 
 def prim(start):
@@ -29,14 +30,16 @@ def prim(start):
     return cost
 
 
+t = int(input())
 
-n, m = map(int, input().split())
-graph = [[] for _ in range(n+1)]
-INF = 99999999          # 임의의 큰 수
+for tc in range(1,t+1):
+    n, m = map(int, input().split())
+    graph = [[] for _ in range(n+2)]
+    INF = 99999999          # 임의의 큰 수
 
-for _ in range(m):
-    s, e, w = map(int, input().split())
-    graph[s].append((e, w))
-    graph[e].append((s, w))
+    for _ in range(m):
+        s, e, w = map(int, input().split())
+        graph[s].append((e, w))
 
-print(prim(1))      # 1번 정점부터 시작
+    answer = prim(0)
+    print(f'#{tc}', answer)
