@@ -1,32 +1,41 @@
 # 연산
-# 제한시간 초과
-import sys
-sys.stdin = open('sample_input.txt')
-
-# 연산값 목록
-ca = [1, -1, 2, -10]     # 3번째 수는 *2
+# deque 사용
+# import sys
+# sys.stdin = open('sample_input.txt')
 
 
-# 연산을 진행하면서 최적의 경우의 수를 도출하는 함수
+from collections import deque
+
+
+# BFS로 연산을 진행하면서 최적의 경우의 수를 도출하는 함수
 def calculation(k, find_value, calcount):
-    result = [k]
-    # bfs로 경우의 수 탐색
-    solved = False
+    result = deque()
+    result.append([k, calcount])
+    # 중복 여부 체크
+    overlap = [False] * (10**6 +1)
     while result:
-        for _ in range(len(result)):
-            num = result.pop(0)
-            if num < 0:
-                continue
-            for i in range(4):
-                if i == 2:
-                    val = num * ca[i]
-                else:
-                    val = num + ca[i]
-                if val == find_value:
-                    return calcount + 1
-                if val >= 0:
-                    result.append(val)
+        num, calcount = result.popleft()
+        # 이미 등장했던 숫자면 continue
+        if overlap[num]:
+            continue
+        overlap[num] = True     # 숫자 등장 처리
+        # 찾으려 했던 숫자면 탐색 횟수 반환
+        if num == find_value:
+            return calcount
         calcount += 1
+        # 이하 +1, -1, *2, -10 연산
+        val = num + 1
+        if 0 < val <= 1000000:
+            result.append([val, calcount])
+        val = num - 1
+        if 0 < val <= 1000000:
+            result.append([val, calcount])
+        val = num * 2
+        if 0 < val <= 1000000:
+            result.append([val, calcount])
+        val = num - 10
+        if 0 < val <= 1000000:
+            result.append([val, calcount])
 
 
 t = int(input())

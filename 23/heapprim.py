@@ -4,8 +4,8 @@ from heapq import heappush, heappop
 
 
 def prim(start):
-    visited = [False] * (n+1)
-    heap = [(0, start)]     # 힙 선언[(비용, 정점)]
+    visited = [False] * (n + 1)
+    heap = [(0, start)]  # 힙 선언[(비용, 정점)]
     cost = 0
 
     while heap:
@@ -25,14 +25,13 @@ def prim(start):
     return cost
 
 
-
 n, m = map(int, input().split())
-graph = [[] for _ in range(n+1)]
-INF = 99999999          # 임의의 큰 수
+graph = [[] for _ in range(n + 1)]
+INF = 99999999  # 임의의 큰 수
 
 for _ in range(m):
     s, e, w = map(int, input().split())
     graph[s].append((e, w))
     graph[e].append((s, w))
 
-print(prim(1))      # 1번 정점붙 시작
+print(prim(1))  # 1번 정점붙 시작
