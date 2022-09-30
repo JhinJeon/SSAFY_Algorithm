@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a78007-7aec-4118-bc98-88ef8d0fb2d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/22/practice1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22/practice2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/22/test1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/1251/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/5648/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/5648/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ1504/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ1504/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ1504/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ1504/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ1647/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ2887/s1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ4485/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/24/BOJ4485/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24/5648/debug.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22/5247.py" beforeDir="false" afterPath="$PROJECT_DIR$/22/5247.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23/BOJ1922/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/23/BOJ1922/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23/heapprim.py" beforeDir="false" afterPath="$PROJECT_DIR$/23/heapprim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/24/5648/s2.py" beforeDir="false" afterPath="$PROJECT_DIR$/24/5648/s2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,6 +260,11 @@
           <url>file://$PROJECT_DIR$/24/BOJ1504/s2.py</url>
           <line>47</line>
           <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/24/5648/s2.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

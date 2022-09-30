@@ -2,7 +2,7 @@
 # 오답 (24/50)
 
 import sys
-sys.stdin = open('sample_input.txt')
+sys.stdin = open('debug.txt')
 
 t = int(input())
 
