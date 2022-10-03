@@ -6,7 +6,7 @@ sys.stdin = open('debug.txt')
 
 t = int(input())
 
-for tc in range(1,t+1):
+for tc in range(1, t+1):
     particle_count = int(input())
 
     particle_position = []                     # 원소 위치만 표시
@@ -17,7 +17,7 @@ for tc in range(1,t+1):
 
     for _ in range(particle_count):
         row, col, dir, kinetic = map(int, input().split())
-        particle_position.append([col, row])     # 방향 정보 추가(세로, 가로, 에너지 보유량)
+        particle_position.append([row, col])     # 방향 정보 추가(가로, 세로)
         # 이동 방향은 0 = 상, 1 = 하, 2 = 좌, 3 = 우
         direction.append(dir)
         kinetic_value.append(kinetic)
@@ -25,14 +25,14 @@ for tc in range(1,t+1):
     while away < particle_count:
         after_movement = []     # 좌표 중복 확인용
         for i in range(particle_count):
-            c, r = particle_position[i]      # y축, x축
+            r, c = particle_position[i]      # x축, y축
             k = kinetic_value[i]
 
             # 유효하지 않은 원소인 경우 계산하지 않음
             if k == 0:
                 after_movement.append((-65535, -65535))
                 continue
-                
+
             # 방향 별 이동 위치 계산
             if direction[i] == 0:               # 위쪽 이동인 경우(0)
                 c += 1
@@ -51,9 +51,9 @@ for tc in range(1,t+1):
             # 유효하지 않은 좌표여도 일단 추가(충돌 계산용)
             particle_position[i] = (c, r)
 
-            # 중복 체크
-            if (c, r) in after_movement:
-                # 좌표가 겹치는 모든 원소의 에너지 압수
+            # 충돌 체크
+            for column, row in particle_position:
+                # 좌표가 겹치는 모든 원소의 에너지 처리
                 for i in range(particle_count):
                     column, row = particle_position[i]
                     energy = kinetic_value[i]
