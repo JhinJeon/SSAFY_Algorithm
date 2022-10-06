@@ -1,5 +1,4 @@
 # 원자 소멸 시뮬레이션
-# 오답 (24/50)
 # 홀수 칸 떨어진 원자 간 충돌도 계산하기 위해 그래프 영역을 두 배로 늘리기
 
 import sys
@@ -20,7 +19,8 @@ for tc in range(1, t+1):
         row, col, dir, kinetic = map(int, input().split())
         row = (row + 1000) * 2      # 좌표값 보정(음수 좌표 양수로 변환, 홀수 칸 떨어진 원소 충돌 계산용)
         col = (col + 1000) * 2
-        particle_status.append([row, col, dir, kinetic])     # 원소 정보 추가(가로, 세로, 방향, 에너지 보유량)
+        # 원소 정보 추가(가로, 세로, 방향, 에너지 보유량)
+        particle_status.append([row, col, dir, kinetic])
 
     while len(particle_status) >= 2:
         after_movement = []     # 원소의 좌표 변화 반영
